@@ -33,7 +33,7 @@ Dim NomFichierSansExtension As String
 Set swApp = Application.SldWorks
     Label5.Caption = ""
     If (TextBox1.Text = "" Or TextBox2.Text = "") Then
-    Label5.Caption = "Verifier le dossier Destination/Source"
+    Label5.Caption = "Please verify destination/Source folder."
     Else
     dossier = TextBox1.Text & "\"
     selCount = -1
